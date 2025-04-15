@@ -36,7 +36,7 @@ let depositTime = Date.now();
 
 const POL_TO_USD = 0.18;
 const HOURLY_RATE = 0.05;
-const RETRAIT_POURCENTAGE = 0.05;
+const RETRAIT_POURCENTAGE = 0.25;
 
 async function connecterMetaMask() {
   if (!window.ethereum) return alert("❌ MetaMask non détecté");
